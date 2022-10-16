@@ -1,4 +1,4 @@
-package com.monster.beans;
+package com.monster.commons.beans;
 
 import org.springframework.beans.BeanUtils;
 
