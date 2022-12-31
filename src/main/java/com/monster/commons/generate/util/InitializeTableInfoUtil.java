@@ -98,8 +98,6 @@ public class InitializeTableInfoUtil {
             parseTableInfo(tableInfo, resultSet);
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            JdbcUtil.close();
         }
         return tableInfo;
     }

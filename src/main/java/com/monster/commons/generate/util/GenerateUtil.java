@@ -66,6 +66,7 @@ public class GenerateUtil {
                     columnAnnotationVerifyEnumList
             );
         }
+        JdbcUtil.close();
     }
 
     /**
