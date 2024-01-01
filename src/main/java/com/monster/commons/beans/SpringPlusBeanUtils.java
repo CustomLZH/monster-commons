@@ -22,7 +22,7 @@ public abstract class SpringPlusBeanUtils extends BeanUtils {
      * @param taggers 目标
      * @param <T> 源类型
      * @param <V> 目标类型
-     * @return List<V> 目标类型的集合
+     * @return {@link List<V>} 目标类型的集合
      */
     public static <T, V> List<V> copyProperties(List<T> sources, Supplier<V> taggers) {
         if (sources == null) {

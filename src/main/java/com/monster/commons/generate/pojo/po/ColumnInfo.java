@@ -4,9 +4,10 @@ import lombok.Data;
 
 /**
  * 列信息
- * @Author: LiuZhaoHong
- * @Date: 2021/8/11
- * @Version: 1.0
+ * @author LiuZhaoHong
+ * @version 1.0
+ * @date 2021/8/11
+ * @since JDK1.8
  */
 @Data
 public class ColumnInfo {
